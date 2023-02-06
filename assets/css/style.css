@@ -1,27 +1,20 @@
+/* general reset */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
+/* Height of header */
 .debug #app_header {
     height: 630px;
 }
-
+/* nav background */
 .debug #navigation-bg {
     background-color: #add8e6;
     height: 90px;
 
 }
-
-.debug #banner-bg {
-    background-color: #00008b;
-    height: 540px;
-    display: flex;
-    justify-content: center;
-
-}
-
+/* .container-nav */
 .debug .container-nav {
     height: 90px;
     width: 1300px;
@@ -37,7 +30,7 @@
     height: 3rem;
     flex-basis: 20%;
     padding: 1rem;
-
+    
 }
 
 .debug .container-nav #links {
@@ -47,7 +40,7 @@
     flex-basis: 50%;
     text-align: center;
     padding: 1rem;
-
+    
 }
 
 .debug .container-nav #login {
@@ -58,29 +51,41 @@
     text-align: end;
     padding: 1rem;
 }
+/* /.container-nav */
 
-.container-ban {
+/* banner background + container*/
+.debug #banner-bg {
+    background-color: #00008b;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+
+}
+.debug .container-ban {
     height: 430px;
     width: 985px;
     background-color: #ee82ee;
     border: 2px dashed black;
     align-self: center;
 }
+/* /.banner-bg HEADER END */
 
-.debug #app_main {
+/* MAIN START */
+/* height main */
+#app_main {
     height: 3040px;
 }
-
-.debug .bg-white {
+/* bg-white */
+.bg-white {
     height: 20%;
     background-color: white;
 }
-
-.debug .bg-grey {
+/* bg-grey */
+.bg-grey {
     height: 20%;
     background-color: #d3d3d3;
 }
-
+/* first and third container with bg-white */
 .debug .container-main1 {
     width: 1300px;
     height: 100%;
@@ -104,7 +109,9 @@
     border: 2px dashed black;
     align-self: center;
 }
+/* end of container with bg-white */
 
+/* container with bg-grey */
 .debug .container-main2 {
     width: 1300px;
     height: 100%;
@@ -129,12 +136,14 @@
     border: 2px dashed black;
     align-self: center;
 }
+/* end of container with bg-grey */
 
 .debug .bg-grey2 {
     background-color: #d3d3d3;
     height: 40%;
 }
 
+/* section4 special */
 .debug .container-main3 {
     width: 1300px;
     height: 100%;
@@ -149,12 +158,14 @@
     border: 2px dashed black;
     align-self: center;
 }
+/* end of section4 special */
 
+/* footer height and bg */
 .debug #app_footer {
     height: 1000px;
     background-color: #23272a;
 }
-
+/* footertop */
 .debug #container-foot_top {
     width: 1300px;
     height: 90%;
@@ -187,7 +198,8 @@
     border: 2px dashed white;
 
 }
-
+/* end of footer top */
+/* footer bottom */
 .debug .container-foot_bottom {
     width: 1300px;
     height: 10%;
@@ -211,3 +223,4 @@
     padding: 5px;
     align-self: center;
 }
+/* end of footer bottom */
