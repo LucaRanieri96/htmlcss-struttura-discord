@@ -10,19 +10,19 @@ body {
 }
 
 /* Height of header */
-.debug #app_header {
+#app_header {
     height: 630px;
 }
 
 /* nav background */
-.debug #navigation-bg {
+#navigation-bg {
     background-color: #add8e6;
     height: 90px;
 
 }
 
 /* .container-nav */
-.debug .container-nav {
+.container-nav {
     height: 90px;
     width: 1300px;
     margin: auto;
@@ -30,8 +30,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-
-.debug .container-nav #logo {
+.container-nav #logo {
     background-color: #daa520;
     border: 2px dashed black;
     height: 3rem;
@@ -40,7 +39,7 @@ body {
 
 }
 
-.debug .container-nav #links {
+.container-nav #links {
     background-color: #daa520;
     border: 2px dashed black;
     height: 3rem;
@@ -53,7 +52,7 @@ body {
 
 }
 
-.debug .container-nav #login {
+.container-nav #login {
     background-color: #daa520;
     border: 2px dashed black;
     height: 3rem;
@@ -79,7 +78,7 @@ body {
 
 }
 
-.debug .container-ban {
+.container-ban {
     height: 430px;
     width: 985px;
     background-color: #ee82ee;
@@ -148,7 +147,7 @@ h1 {
 }
 
 /* first and third container with bg-white */
-.debug .container-main1 {
+.container-main1 {
     width: 1300px;
     height: 100%;
     margin: auto;
@@ -156,7 +155,7 @@ h1 {
 
 }
 
-.debug .container-main1 .container-left {
+.container-main1 .container-left {
     width: 66%;
     height: 80%;
     background-color: #1e90ff;
@@ -164,7 +163,7 @@ h1 {
     align-self: center;
 }
 
-.debug .container-main1 .container-right {
+.container-main1 .container-right {
     width: 33%;
     height: 80%;
     background-color: #ffc0cb;
@@ -175,7 +174,7 @@ h1 {
 /* end of container with bg-white */
 
 /* container with bg-grey */
-.debug .container-main2 {
+.container-main2 {
     width: 1300px;
     height: 100%;
     margin: auto;
@@ -184,7 +183,7 @@ h1 {
 
 }
 
-.debug .container-main2 .container-left {
+.container-main2 .container-left {
     width: 66%;
     height: 80%;
     background-color: #1e90ff;
@@ -192,7 +191,7 @@ h1 {
     align-self: center;
 }
 
-.debug .container-main2 .container-right {
+.container-main2 .container-right {
     width: 33%;
     height: 80%;
     background-color: #ffc0cb;
@@ -202,20 +201,20 @@ h1 {
 
 /* end of container with bg-grey */
 
-.debug .bg-grey2 {
+.bg-grey2 {
     background-color: #d3d3d3;
     height: 40%;
 }
 
 /* section4 special */
-.debug .container-main3 {
+.container-main3 {
     width: 1300px;
     height: 100%;
     margin: auto;
     display: flex;
 }
 
-.debug .container-main3 .container3 {
+.container-main3 .container3 {
     height: 90%;
     width: 100%;
     background-color: #228b22;
