@@ -19,7 +19,7 @@
     height: 540px;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .debug .container-nav {
@@ -30,25 +30,27 @@
     align-items: center;
     justify-content: center;
 }
-    
-.debug .container-nav #logo{
+
+.debug .container-nav #logo {
     background-color: #daa520;
     border: 2px dashed black;
     height: 3rem;
     flex-basis: 20%;
     padding: 1rem;
-    
+
 }
-.debug .container-nav #links{
+
+.debug .container-nav #links {
     background-color: #daa520;
     border: 2px dashed black;
     height: 3rem;
     flex-basis: 50%;
     text-align: center;
     padding: 1rem;
-    
+
 }
-.debug .container-nav #login{
+
+.debug .container-nav #login {
     background-color: #daa520;
     border: 2px dashed black;
     height: 3rem;
@@ -56,13 +58,74 @@
     text-align: end;
     padding: 1rem;
 }
-.container-ban{
+
+.container-ban {
     height: 430px;
     width: 985px;
     background-color: #ee82ee;
     border: 2px dashed black;
     align-self: center;
 }
+
+.debug #app_main {
+    height: 3040px;
+}
+
+.debug .bg-white {
+    height: 20%;
+    background-color: white;
+}
+
+.debug .bg-grey {
+    height: 20%;
+    background-color: #d3d3d3;
+}
+
+.debug .container-main1 {
+    width: 1300px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+
+}
+
+.container-main1 .container-left {
+    width: 66%;
+    height: 80%;
+    background-color: #1e90ff;
+    border: 2px dashed black;
+    align-self: center;
+}
+
+.container-main1 .container-right {
+    width: 33%;
+    height: 80%;
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+    align-self: center;
+}
+
+.debug .container-main2 {
+    width: 1300px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
     
-    
-    
+}
+
+.container-main2 .container-left {
+    width: 66%;
+    height: 80%;
+    background-color: #1e90ff;
+    border: 2px dashed black;
+    align-self: center;
+}
+
+.container-main2 .container-right {
+    width: 33%;
+    height: 80%;
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+    align-self: center;
+}
