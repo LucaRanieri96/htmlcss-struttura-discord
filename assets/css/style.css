@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{font-family: 'Nunito Sans', sans-serif;}
 /* Height of header */
 .debug #app_header {
     height: 630px;
@@ -40,6 +41,8 @@
     flex-basis: 50%;
     text-align: center;
     padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
     
 }
 
@@ -67,6 +70,17 @@
     background-color: #ee82ee;
     border: 2px dashed black;
     align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+h1{
+    font-size:60px;
+    color: white;
+}
+.container-ban p {
+    color: white;
 }
 /* /.banner-bg HEADER END */
 
