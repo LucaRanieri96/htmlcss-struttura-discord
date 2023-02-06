@@ -1,5 +1,54 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.debug #app_header {
+    height: 630px;
+}
+
+.debug #navigation-bg {
+    background-color: #add8e6;
+    height: 90px;
+
+}
+
+.debug #banner-bg {
+    background-color: #00008b;
+    height: 540px;
+}
+
+.container {
+    height: 90px;
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    
+    align-items: center;
+}
+.container #logo{
+    background-color: #daa520;
+    border: 1px dotted black;
+    height: 3rem;
+    flex-basis: 20%;
+    padding: 1rem;
+    
+}
+.container #links{
+    background-color: #daa520;
+    border: 1px dotted black;
+    height: 3rem;
+    flex-basis: 50%;
+    text-align: center;
+    padding: 1rem;
+    
+}
+.container #login{
+    background-color: #daa520;
+    border: 1px dotted black;
+    height: 3rem;
+    flex-basis: 25%;
+    text-align: end;
+    padding: 1rem;
 }
