@@ -17,38 +17,52 @@
 .debug #banner-bg {
     background-color: #00008b;
     height: 540px;
+    display: flex;
+    justify-content: center;
+    
 }
 
-.container {
+.debug .container-nav {
     height: 90px;
     width: 1300px;
     margin: auto;
     display: flex;
-    
     align-items: center;
+    justify-content: center;
 }
-.container #logo{
+    
+.debug .container-nav #logo{
     background-color: #daa520;
-    border: 1px dotted black;
+    border: 2px dashed black;
     height: 3rem;
     flex-basis: 20%;
     padding: 1rem;
     
 }
-.container #links{
+.debug .container-nav #links{
     background-color: #daa520;
-    border: 1px dotted black;
+    border: 2px dashed black;
     height: 3rem;
     flex-basis: 50%;
     text-align: center;
     padding: 1rem;
     
 }
-.container #login{
+.debug .container-nav #login{
     background-color: #daa520;
-    border: 1px dotted black;
+    border: 2px dashed black;
     height: 3rem;
     flex-basis: 25%;
     text-align: end;
     padding: 1rem;
 }
+.container-ban{
+    height: 430px;
+    width: 985px;
+    background-color: #ee82ee;
+    border: 2px dashed black;
+    align-self: center;
+}
+    
+    
+    
