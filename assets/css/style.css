@@ -4,17 +4,23 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{font-family: 'Nunito Sans', sans-serif;}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 /* Height of header */
 .debug #app_header {
     height: 630px;
 }
+
 /* nav background */
 .debug #navigation-bg {
     background-color: #add8e6;
     height: 90px;
 
 }
+
 /* .container-nav */
 .debug .container-nav {
     height: 90px;
@@ -31,7 +37,7 @@ body{font-family: 'Nunito Sans', sans-serif;}
     height: 3rem;
     flex-basis: 20%;
     padding: 1rem;
-    
+
 }
 
 .debug .container-nav #links {
@@ -43,7 +49,7 @@ body{font-family: 'Nunito Sans', sans-serif;}
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
-    
+
 }
 
 .debug .container-nav #login {
@@ -54,6 +60,7 @@ body{font-family: 'Nunito Sans', sans-serif;}
     text-align: end;
     padding: 1rem;
 }
+
 /* /.container-nav */
 
 /* banner background + container*/
@@ -64,6 +71,7 @@ body{font-family: 'Nunito Sans', sans-serif;}
     justify-content: center;
 
 }
+
 .debug .container-ban {
     height: 430px;
     width: 985px;
@@ -72,26 +80,38 @@ body{font-family: 'Nunito Sans', sans-serif;}
     align-self: center;
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    
+    align-items: center;
+
 }
-h1{
-    font-size:60px;
+
+h1 {
+    font-size: 60px;
     color: white;
     padding: 2rem;
 }
+
 .container-ban p {
-    
+
     font-size: 26px;
     color: white;
     text-align: center;
 }
-#white-button{
+
+#white-button {
     font-size: 20px;
     padding: 0.5rem 2rem;
     background-color: white;
     border-radius: 4rem;
 }
+
+#black-button {
+    font-size: 20px;
+    padding: 0.5rem 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 4rem;
+}
+
 /* /.banner-bg HEADER END */
 
 /* MAIN START */
@@ -99,16 +119,19 @@ h1{
 #app_main {
     height: 3040px;
 }
+
 /* bg-white */
 .bg-white {
     height: 20%;
     background-color: white;
 }
+
 /* bg-grey */
 .bg-grey {
     height: 20%;
     background-color: #d3d3d3;
 }
+
 /* first and third container with bg-white */
 .debug .container-main1 {
     width: 1300px;
@@ -133,6 +156,7 @@ h1{
     border: 2px dashed black;
     align-self: center;
 }
+
 /* end of container with bg-white */
 
 /* container with bg-grey */
@@ -160,6 +184,7 @@ h1{
     border: 2px dashed black;
     align-self: center;
 }
+
 /* end of container with bg-grey */
 
 .debug .bg-grey2 {
@@ -182,6 +207,7 @@ h1{
     border: 2px dashed black;
     align-self: center;
 }
+
 /* end of section4 special */
 
 /* footer height and bg */
@@ -189,6 +215,7 @@ h1{
     height: 1000px;
     background-color: #23272a;
 }
+
 /* footertop */
 .debug #container-foot_top {
     width: 1300px;
@@ -222,6 +249,7 @@ h1{
     border: 2px dashed white;
 
 }
+
 /* end of footer top */
 /* footer bottom */
 .debug .container-foot_bottom {
@@ -247,4 +275,5 @@ h1{
     padding: 5px;
     align-self: center;
 }
+
 /* end of footer bottom */
