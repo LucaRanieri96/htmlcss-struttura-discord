@@ -81,32 +81,40 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
 
 }
 
 h1 {
     font-size: 60px;
     color: white;
-    padding: 2rem;
+    
 }
 
 .container-ban p {
 
-    font-size: 26px;
+    font-size: 24px;
     color: white;
     text-align: center;
+}
+#inner-container{
+    display: flex;
+    flex-direction: row;
+    
 }
 
 #white-button {
     font-size: 20px;
-    padding: 0.5rem 2rem;
+    padding: 0.8rem 2rem;
     background-color: white;
     border-radius: 4rem;
+    margin: 0 2rem;
 }
 
 #black-button {
     font-size: 20px;
-    padding: 0.5rem 2rem;
+    padding: 0.8rem 2rem;
     background-color: black;
     color: white;
     border-radius: 4rem;
