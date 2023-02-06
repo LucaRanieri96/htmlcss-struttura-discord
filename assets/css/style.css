@@ -111,7 +111,7 @@
     margin: auto;
     display: flex;
     flex-direction: row-reverse;
-    
+
 }
 
 .debug .container-main2 .container-left {
@@ -129,20 +129,68 @@
     border: 2px dashed black;
     align-self: center;
 }
-.debug .bg-grey2{
+
+.debug .bg-grey2 {
     background-color: #d3d3d3;
     height: 40%;
 }
-.debug .container-main3{
+
+.debug .container-main3 {
     width: 1300px;
     height: 100%;
     margin: auto;
     display: flex;
 }
-.debug .container-main3 .container3{
+
+.debug .container-main3 .container3 {
     height: 90%;
     width: 100%;
     background-color: #228b22;
     border: 2px dashed black;
     align-self: center;
+}
+
+.debug #app_footer {
+    height: 800px;
+    background-color: #23272a;
+}
+
+.debug #container-foot_top {
+    width: 1300px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+.debug .container-left2{
+    width: 33%;
+    height: 90%;
+    background-color: #f08080;
+    border: 2px dashed black;
+    align-self: center;
+}
+.debug .container-right2{
+    width: 66%;
+    height: 90%;
+    background-color: #20b2aa;
+    border: 2px dashed white;
+    align-self: center;
+    display: flex;
+
+}
+.debug .nested-cont{
+    width: 25%;
+    height: 100%;
+    background-color: #20b2aa;
+    border: 2px dashed white;
+    
+}
+#app_footer2 {
+    height: 100px;
+    background-color: #23272a;
+}
+#container-foot_bottom {
+    width: 1300px;
+    height: 100%;
+    margin: auto;
+    display: flex;
 }
