@@ -60,7 +60,13 @@ body {
     text-align: end;
     padding: 1rem;
 }
-
+.white-button1{
+    padding: 0.8rem 2rem;
+    background-color: white;
+    border-radius: 4rem;
+    margin: 0 2rem;
+    
+}
 /* /.container-nav */
 
 /* banner background + container*/
@@ -104,7 +110,7 @@ h1 {
     
 }
 
-#white-button {
+#white-button2 {
     font-size: 20px;
     padding: 0.8rem 2rem;
     background-color: white;
