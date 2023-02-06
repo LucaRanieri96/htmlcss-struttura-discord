@@ -78,9 +78,19 @@ body{font-family: 'Nunito Sans', sans-serif;}
 h1{
     font-size:60px;
     color: white;
+    padding: 2rem;
 }
 .container-ban p {
+    
+    font-size: 26px;
     color: white;
+    text-align: center;
+}
+#white-button{
+    font-size: 20px;
+    padding: 0.5rem 2rem;
+    background-color: white;
+    border-radius: 4rem;
 }
 /* /.banner-bg HEADER END */
 
