@@ -225,20 +225,20 @@ h1 {
 /* end of section4 special */
 
 /* footer height and bg */
-.debug #app_footer {
+#app_footer {
     height: 800px;
     background-color: #23272a;
 }
 
 /* footertop */
-.debug #container-foot_top {
+#container-foot_top {
     width: 1300px;
     height: 90%;
     margin: auto;
     display: flex;
 }
 
-.debug .container-left2 {
+.container-left2 {
     width: 33%;
     height: 90%;
     background-color: #f08080;
@@ -246,7 +246,7 @@ h1 {
     align-self: center;
 }
 
-.debug .container-right2 {
+.container-right2 {
     width: 66%;
     height: 90%;
     background-color: #20b2aa;
@@ -256,7 +256,7 @@ h1 {
 
 }
 
-.debug .nested-cont {
+.nested-cont {
     width: 25%;
     height: 100%;
     background-color: #20b2aa;
@@ -266,7 +266,7 @@ h1 {
 
 /* end of footer top */
 /* footer bottom */
-.debug .container-foot_bottom {
+.container-foot_bottom {
     width: 1300px;
     height: 10%;
     margin: auto;
@@ -274,7 +274,7 @@ h1 {
     justify-content: center;
 }
 
-.debug .container4 {
+.container4 {
     width: 100%;
     height: 80%;
     align-self: flex-end;
@@ -283,7 +283,7 @@ h1 {
     justify-content: space-between;
 }
 
-.debug .container5 {
+.container5 {
     background-color: #ffb6c1;
     border: 2px dashed black;
     padding: 5px;
